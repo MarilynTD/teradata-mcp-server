@@ -59,7 +59,7 @@ jobs:
             --port 8001 \
             --set-env-vars DATABASE_URI="${{ secrets.DATABASE_URI }}" \
             --allow-unauthenticated \
-            --min-instances 1 \
+            --min-instances 0 \
             --quiet
 
       - name: Show Cloud Run URL
