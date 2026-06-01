@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'src/**'
+      - 'Dockerfile'
+      - 'pyproject.toml'
+      - 'docker-compose.yml'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 env:
