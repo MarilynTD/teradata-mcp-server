@@ -38,4 +38,12 @@ paths:
       responses:
         '200':
           description: Success
-securityDefinitions: {}
+securityDefinitions:
+  basicAuth:
+    type: basic
+    description: >-
+      Teradata username and password. Credentials are validated directly
+      against the Teradata Vantage database. Use the same user and password
+      you would use to connect to Teradata.
+security:
+  - basicAuth: []
