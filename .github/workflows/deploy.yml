@@ -57,7 +57,7 @@ jobs:
             --platform managed \
             --region ${{ env.REGION }} \
             --port 8001 \
-            --set-env-vars DATABASE_URI="${{ secrets.DATABASE_URI }}",AUTH_MODE=basic \
+            --set-env-vars DATABASE_URI="${{ secrets.DATABASE_URI }}" \
             --allow-unauthenticated \
             --min-instances 1 \
             --quiet
