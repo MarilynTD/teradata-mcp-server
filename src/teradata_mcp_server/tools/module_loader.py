@@ -27,6 +27,7 @@ class ModuleLoader:
         "graph": "teradata_mcp_server.tools.graph",
         "qlty": "teradata_mcp_server.tools.qlty",
         "rag": "teradata_mcp_server.tools.rag",
+        "retail": "teradata_mcp_server.tools.retail",
         "sql_opt": "teradata_mcp_server.tools.sql_opt",
         "sec": "teradata_mcp_server.tools.sec",
         "tmpl": "teradata_mcp_server.tools.tmpl",
